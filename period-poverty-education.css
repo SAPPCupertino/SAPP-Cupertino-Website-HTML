@@ -1,0 +1,705 @@
+.period-poverty-education-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e6aea8;
+}
+.period-poverty-education-navbar-interactive {
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  z-index: 100;
+  position: fixed;
+  align-self: center;
+  box-shadow: 0px 0px 10px 0px #945858;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefdd;
+}
+.period-poverty-education-desktop-menu {
+  flex: 1;
+  display: initial;
+  justify-content: space-between;
+}
+.period-poverty-education-links {
+  flex: 1;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.period-poverty-education-navlink {
+  display: contents;
+}
+.period-poverty-education-image {
+  width: 44px;
+  height: 35px;
+  text-decoration: none;
+}
+.period-poverty-education-navlink1 {
+  color: #DC9999;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.period-poverty-education-navlink1:hover {
+  color: #a27575;
+}
+.period-poverty-education-navlink2 {
+  color: #dc9999;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.period-poverty-education-navlink2:hover {
+  color: #a27575;
+}
+.period-poverty-education-navlink3 {
+  color: #DC9999;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: transparent;
+}
+.period-poverty-education-navlink3:hover {
+  color: #a27575;
+}
+.period-poverty-education-navlink4 {
+  color: #DC9999;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: transparent;
+}
+.period-poverty-education-navlink4:hover {
+  color: #a27575;
+}
+.period-poverty-education-navlink5 {
+  color: rgb(220, 153, 153);
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: transparent;
+}
+.period-poverty-education-navlink5:hover {
+  color: #a27575;
+}
+.period-poverty-education-text02:hover {
+  color: #a27575;
+}
+.period-poverty-education-navlink6 {
+  color: #DC9999;
+  font-size: 16px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+  background-color: transparent;
+}
+.period-poverty-education-navlink6:hover {
+  color: #a27575;
+}
+.period-poverty-education-burger-menu {
+  display: none;
+}
+.period-poverty-education-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.period-poverty-education-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.period-poverty-education-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.period-poverty-education-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.period-poverty-education-logo {
+  width: 144px;
+  height: 122px;
+}
+.period-poverty-education-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.period-poverty-education-icon02 {
+  width: 70px;
+  height: 70px;
+}
+.period-poverty-education-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.period-poverty-education-text04 {
+  color: #dc9999;
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.period-poverty-education-text04:hover {
+  color: #a27575;
+}
+.period-poverty-education-text05 {
+  font-style: normal;
+  font-family: Fredoka;
+  font-weight: 500;
+}
+.period-poverty-education-text05:hover {
+  color: #a27575;
+}
+.period-poverty-education-text07 {
+  color: #dc9999;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.period-poverty-education-text07:hover {
+  color: #a27575;
+}
+.period-poverty-education-text08 {
+  color: #dc9999;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.period-poverty-education-text08:hover {
+  color: #a27575;
+}
+.period-poverty-education-text09 {
+  color: #dc9999;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.period-poverty-education-text09:hover {
+  color: #a27575;
+}
+.period-poverty-education-text10 {
+  color: #dc9999;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Fredoka;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.period-poverty-education-text10:hover {
+  color: #a27575;
+}
+.period-poverty-education-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.period-poverty-education-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.period-poverty-education-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.period-poverty-education-navbar-spacer {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: flex-start;
+}
+.period-poverty-education-hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  opacity: 1;
+  padding: var(--dl-space-space-twounits);
+  max-width: 100%;
+  max-height: auto;
+  min-height: auto;
+  align-items: center;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("public/external/pastedimage-qj8h-1500w.png");
+}
+.period-poverty-education-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.period-poverty-education-heading {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.period-poverty-education-header {
+  color: rgb(239, 239, 221);
+  width: auto;
+  height: auto;
+  margin: var(--dl-space-space-halfunit);
+  font-size: 50px;
+  max-width: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  border-radius: 1px;
+  letter-spacing: 9px;
+  text-transform: none;
+  text-decoration: none;
+}
+.period-poverty-education-buttons {
+  gap: var(--dl-space-space-threeunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.period-poverty-education-container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6aea8;
+}
+.period-poverty-education-projects {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.period-poverty-education-our-current-projects-header {
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-color: #efefdd;
+}
+.period-poverty-education-header1 {
+  color: rgb(220, 153, 153);
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: none;
+  text-decoration: none;
+}
+.period-poverty-education-podcast {
+  width: 70%;
+  margin: var(--dl-space-space-twounits);
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  box-shadow: 0px 0px 50px 0px #b16969;
+  min-height: auto;
+  align-items: flex-start;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #efefdd;
+}
+.period-poverty-education-image1 {
+  width: 50%;
+  height: 50%;
+  margin: var(--dl-space-space-unit);
+  align-self: center;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.period-poverty-education-container3 {
+  width: 100%;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  align-self: center;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.period-poverty-education-container4 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.period-poverty-education-text11 {
+  color: #dc9999;
+  width: auto;
+  font-size: 40px;
+  max-width: auto;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.period-poverty-education-text12 {
+  width: auto;
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: Fredoka;
+  font-weight: 500;
+  line-height: 30px;
+}
+.period-poverty-education-view {
+  color: rgb(0, 0, 0);
+  width: auto;
+  box-shadow: 5px 6px 0px 0px #ebc3c3;
+  font-family: Montserrat;
+  border-color: #dc9999;
+  border-width: 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: rgb(220, 153, 153);
+}
+.period-poverty-education-footer {
+  gap: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  position: relative;
+  max-width: auto;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #dc9999;
+}
+.period-poverty-education-main {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.period-poverty-education-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.period-poverty-education-branding {
+  height: auto;
+  display: flex;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.period-poverty-education-heading1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.period-poverty-education-logo1 {
+  color: rgb(239, 239, 221);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+.period-poverty-education-caption {
+  color: rgb(239, 239, 221);
+  height: auto;
+  font-size: 18px;
+  line-height: 27px;
+}
+.period-poverty-education-copyright {
+  color: #efefdd;
+  font-size: 12px;
+}
+.period-poverty-education-socials {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.period-poverty-education-social-bar {
+  width: auto;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.period-poverty-education-link {
+  display: contents;
+}
+.period-poverty-education-icon10 {
+  fill: #efefdd;
+  width: 40px;
+  height: 40px;
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.period-poverty-education-link1 {
+  display: contents;
+}
+.period-poverty-education-icon12 {
+  fill: #efefdd;
+  width: 40px;
+  height: 40px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.period-poverty-education-socials1 {
+  gap: var(--dl-space-space-unit);
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.period-poverty-education-twitter {
+  text-decoration: none;
+}
+.period-poverty-education-image2 {
+  width: 100px;
+  object-fit: cover;
+}
+.period-poverty-education-discord {
+  text-decoration: none;
+}
+.period-poverty-education-image3 {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 1920px) {
+  .period-poverty-education-hero {
+    gap: 0;
+    height: auto;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .period-poverty-education-header {
+    color: rgb(239, 239, 221);
+    font-size: 40px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: 9px;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .period-poverty-education-header1 {
+    margin: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-podcast {
+    width: 80%;
+    height: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-container3 {
+    margin: 5px;
+    align-self: center;
+  }
+  .period-poverty-education-text12 {
+    color: #603030;
+    line-height: 25px;
+  }
+  .period-poverty-education-view {
+    color: #603030;
+    font-size: 16px;
+  }
+  .period-poverty-education-logo1 {
+    font-family: Montserrat;
+  }
+  .period-poverty-education-caption {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+    line-height: 27px;
+  }
+  .period-poverty-education-copyright {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+}
+@media(max-width: 1400px) {
+  .period-poverty-education-podcast {
+    height: auto;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 991px) {
+  .period-poverty-education-navbar-interactive {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    align-self: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+    justify-content: flex-start;
+  }
+  .period-poverty-education-desktop-menu {
+    display: none;
+  }
+  .period-poverty-education-burger-menu {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .period-poverty-education-icon {
+    height: auto;
+    align-self: stretch;
+  }
+  .period-poverty-education-top {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .period-poverty-education-logo {
+    width: 145px;
+    height: 122px;
+  }
+  .period-poverty-education-close-menu {
+    position: relative;
+  }
+  .period-poverty-education-icon02 {
+    align-self: center;
+  }
+  .period-poverty-education-text04 {
+    color: rgb(220, 153, 153);
+  }
+  .period-poverty-education-text07 {
+    color: rgb(220, 153, 153);
+  }
+  .period-poverty-education-text08 {
+    color: rgb(220, 153, 153);
+  }
+  .period-poverty-education-text09 {
+    color: rgb(220, 153, 153);
+  }
+  .period-poverty-education-text10 {
+    color: rgb(220, 153, 153);
+  }
+  .period-poverty-education-navbar-spacer {
+    height: 50px;
+  }
+  .period-poverty-education-podcast {
+    width: 100%;
+    max-width: auto;
+  }
+}
+@media(max-width: 767px) {
+  .period-poverty-education-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .period-poverty-education-text04 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-text05 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-text07 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-text08 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-text09 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-text10 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .period-poverty-education-social-bar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .period-poverty-education-social-bar {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
